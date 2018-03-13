@@ -1,0 +1,221 @@
+/*  menu  */
+
+.menu {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.menu-item {
+  color: mediumaquamarine;
+  margin: 10px;
+}
+
+.menu-link {
+  justify-content: space-between;
+  margin: auto;
+  margin: 15px;
+  color: black;
+}
+
+/*  text  */
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin: 25px;
+}
+
+h2 {
+  font-family: Georgia;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+.mainhead {
+  font-size: 40px;
+}
+
+.newsbites {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  height: 50px;
+  align-content: center;
+  border-bottom-style: solid;
+  border-width: thin;
+  align-items: center;
+
+}
+
+/*  story containers  */
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-large {
+  width: 630px;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.content-medium {
+  width: 300px;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.content-small {
+  width: 240px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bordermark {
+  border-style: solid;
+  border-width: thin;
+  margin-left: 15px;
+  margin-right: 15px;
+  align-items: center;
+}
+
+.bitescontainer {
+  align-items: center;
+  height: 20px;
+
+}
+
+/*  container images  */
+
+.main-story {
+  height: 300px;
+  width: 629px;
+  margin: 15px;
+  background-image: url(/Users/digitalkoma/Documents/Projects/MyTimes/resources/images/img-story-main.png);
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+
+.story1 {
+  background-image: url(/Users/digitalkoma/Documents/Projects/MyTimes/resources/images/img-story-1.png);
+  height: 300px;
+  width: 285px;
+  margin: 15px;
+  display: flex;
+}
+
+.story2 {
+  background-image: url(/Users/digitalkoma/Documents/Projects/MyTimes/resources/images/img-story-2.png);
+  height: 300px;
+  width: 285px;
+  margin: 15px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.story3 {
+  background-image: url(/Users/digitalkoma/Documents/Projects/MyTimes/resources/images/img-story-3.png);
+  height: 300px;
+  width: 285px;
+  margin: 15px;
+  display: flex;
+}
+
+.orcastory {
+  height: 300px;
+  width: 285px;
+  margin: 15px;
+}
+
+.burgerstory {
+  height: 300px;
+  width: 285px;
+  margin: 15px;
+}
+
+.monumentstory {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.fbistory {
+  width: 300px;
+  margin: 15px;
+}
+
+.brooklynstory {
+  width: 300px;
+  margin: 15px;
+}
+
+
+/* footer */
+
+.foot-container {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 250px;
+  align-items: center;
+}
+
+.footer-link {
+  justify-content: space-between;
+  margin: auto;
+  margin: 5px;
+  color: black;
